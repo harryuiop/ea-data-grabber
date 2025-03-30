@@ -34,13 +34,13 @@ from NZEA's system.
 ## Usage
 Enter a filepath to select with an optional start date (-sd) and end date (-ed)
 
-    Optionally add only a -sd or an -ed to get all specified files before or after a given date, and all
-    incorrectly formatted dates will be ignored
+ Optionally add only a -sd or an -ed to get all specified files before or after a given date, and all
+ incorrectly formatted dates will be ignored
 
-    If an expected filepath is not working, download a file via "https://www.emi.ea.govt.nz/Wholesale/Datasets"
-    using the network tab within dev-tools and take the path (including) "Datasets/" onwards,
-    alternatively you can use the webpage URL but note "/Datasets" must
-    come before "/Wholesale" within the input below (e.g. "Datasets/Wholesale/...")
+ If an expected filepath is not working, download a file via "https://www.emi.ea.govt.nz/Wholesale/Datasets"
+ using the network tab within dev-tools and take the path (including) "Datasets/" onwards,
+ alternatively you can use the webpage URL but note "/Datasets" must
+ come before "/Wholesale" within the input below (e.g. "Datasets/Wholesale/...")
 
     Example Input: Datasets/Wholesale/BidsAndOffers/Bids/2018/20180623_Bids.csv
     Example Input: Datasets/Wholesale/BidsAndOffers/Bids/ -SD YYYY/MM/DD -ED YYYY/MM/DD
