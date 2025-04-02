@@ -1,4 +1,5 @@
 # EA Data Grabber
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
 ## Overview
 EADataGrabber is a C++ command-line tool designed to help users download large batches of files from the New Zealand Electricity Authority (NZEA) based on user-defined conditions. It includes filtering, error handling, and search capabilities to give users a MUCH faster way of downloading files
