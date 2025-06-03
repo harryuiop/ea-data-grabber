@@ -1,0 +1,11 @@
+﻿  EADataGrabber.cpp
+x64\Release\ConsoleUtils.obj : warning LNK4042: object specified more than once; extras ignored
+LINK : warning LNK4217: symbol 'curl_global_init' defined in 'libcurl_a.lib(easy.obj)' is imported by 'CurlUtilsWrap.obj' in function '"void * __cdecl InitCurl(void)" (?InitCurl@@YAPEAXXZ)'
+LINK : warning LNK4217: symbol 'curl_global_cleanup' defined in 'libcurl_a.lib(easy.obj)' is imported by 'CurlUtilsWrap.obj' in function '"void __cdecl CurlDeleter(void *)" (?CurlDeleter@@YAXPEAX@Z)'
+LINK : warning LNK4217: symbol 'curl_easy_strerror' defined in 'libcurl_a.lib(strerror.obj)' is imported by 'CurlUtilsWrap.obj' in function '"int __cdecl DownloadBinaryFile(class std::shared_ptr<void>,struct DownloadParameters const &)" (?DownloadBinaryFile@@YAHV?$shared_ptr@X@std@@AEBUDownloadParameters@@@Z)'
+LINK : warning LNK4217: symbol 'curl_easy_init' defined in 'libcurl_a.lib(easy.obj)' is imported by 'CurlUtilsWrap.obj' in function '"void * __cdecl InitCurl(void)" (?InitCurl@@YAPEAXXZ)'
+LINK : warning LNK4217: symbol 'curl_easy_setopt' defined in 'libcurl_a.lib(setopt.obj)' is imported by 'CurlUtilsWrap.obj' in function '"int __cdecl DownloadBinaryFile(class std::shared_ptr<void>,struct DownloadParameters const &)" (?DownloadBinaryFile@@YAHV?$shared_ptr@X@std@@AEBUDownloadParameters@@@Z)'
+LINK : warning LNK4217: symbol 'curl_easy_perform' defined in 'libcurl_a.lib(easy.obj)' is imported by 'CurlUtilsWrap.obj' in function '"int __cdecl DownloadBinaryFile(class std::shared_ptr<void>,struct DownloadParameters const &)" (?DownloadBinaryFile@@YAHV?$shared_ptr@X@std@@AEBUDownloadParameters@@@Z)'
+LINK : warning LNK4217: symbol 'curl_easy_cleanup' defined in 'libcurl_a.lib(easy.obj)' is imported by 'CurlUtilsWrap.obj' in function '"void __cdecl CurlDeleter(void *)" (?CurlDeleter@@YAXPEAX@Z)'
+LINK : warning LNK4217: symbol 'curl_easy_getinfo' defined in 'libcurl_a.lib(easy.obj)' is imported by 'CurlUtilsWrap.obj' in function '"void __cdecl HandleCurlResponse(class std::shared_ptr<void>,struct DownloadParameters const &)" (?HandleCurlResponse@@YAXV?$shared_ptr@X@std@@AEBUDownloadParameters@@@Z)'
+  EADataGrabber.vcxproj -> C:\Users\contractor1\Documents\EADataGrabber\x64\Release\EADataGrabber.exe
