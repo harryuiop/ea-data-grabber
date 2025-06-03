@@ -1,7 +1,7 @@
 #ifndef PROJECT_CURL_UTILS_WRAP_HPP
 #define PROJECT_CURL_UTILS_WRAP_HPP
 
-#include <include/curl/curl.h>
+#include <curl/curl.h>
 #include <string>
 #include <chrono>
 #include "Constants.hpp"
