@@ -25,7 +25,7 @@
 #include "DateUtilsWrap.hpp"
 #include "XMLUtils.hpp"
 #include "ConsoleUtils.hpp"
-#include "include/curl/curl.h"
+#include "curl/curl.h"
 
 using namespace CONSTANTS;
 
@@ -172,7 +172,9 @@ void ChangeOutputDirectory(std::string& outputDirectory) {
 
         std::getline(std::cin, path);
 
-        path = removeLeadingWhitespace(path);
+        if (path.at(0) == ' ') {
+            path = removeLeadingWhitespace(path);
+        }
 
         if (toLowercase(path) == "x") {
             ClearTerminal;
@@ -287,7 +289,9 @@ void RunDownload(std::shared_ptr<CURL> curl, const std::string outputDir) {
         return;
     }
 
-    userInput = removeLeadingWhitespace(userInput);
+    if (userInput.at(0) == ' ') {
+        userInput = removeLeadingWhitespace(userInput);
+    }
 
     selectedContainers = FuzzyFindContainers(curl, userInput);
     PrintBlobContainer(selectedContainers);
