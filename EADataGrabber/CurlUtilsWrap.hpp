@@ -40,4 +40,4 @@ int DownloadBinaryFile(std::shared_ptr<CURL> curl, const DownloadParameters& par
 void HandleCurlResponse(std::shared_ptr<CURL> curl, const DownloadParameters& parameters);
 
 
-#endif
+

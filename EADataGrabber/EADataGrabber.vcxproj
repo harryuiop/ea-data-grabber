@@ -125,7 +125,11 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+<<<<<<< HEAD
       <AdditionalIncludeDirectories>$(SolutionDir)\Dependencies\libCURL\x64-Release\include</AdditionalIncludeDirectories>
+=======
+      <AdditionalIncludeDirectories>D:\Work\EADataGrabber\EADataGrabber\Dependencies\libCURL\x64-Release</AdditionalIncludeDirectories>
+>>>>>>> origin/master
       <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
@@ -135,7 +139,11 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>
       </AdditionalLibraryDirectories>
+<<<<<<< HEAD
       <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);$(SolutionDir)\Dependencies\libCURL\x64-Release\lib\libcurl_a.lib;Normaliz.lib;Ws2_32.lib;Wldap32.lib;Crypt32.lib;advapi32.lib;</AdditionalDependencies>
+=======
+      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);D:\Work\EADataGrabber\EADataGrabber\Dependencies\libCURL\x64-Release\lib\libcurl_a.lib;Normaliz.lib;Ws2_32.lib;Wldap32.lib;Crypt32.lib;advapi32.lib;</AdditionalDependencies>
+>>>>>>> origin/master
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>

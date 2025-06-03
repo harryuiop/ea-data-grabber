@@ -398,4 +398,3 @@ int main(void) {
     }
 }
 
-// make it so you are warned if the date is in the wrong order
